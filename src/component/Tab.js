@@ -9,7 +9,6 @@ const Tab = () => {
   ];
   const [currentTab, setCurrentTab] = React.useState(0);
   const selectMenuHandler = (index) => {
-    console.log(index);
     setCurrentTab(index);
   };
 
@@ -22,9 +21,7 @@ const Tab = () => {
               <li
                 length={menuArr.length}
                 key={index}
-                className={`${
-                  index === currentTab ? "submenu focused" : "submenu"
-                }`}
+                className={`${index === currentTab ? "focused" : ""}`}
                 onClick={() => selectMenuHandler(index)}
               >
                 {el.name}

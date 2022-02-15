@@ -84,7 +84,7 @@ const TagsInput = styled.div`
       list-style: none;
       border-radius: 6px;
       margin: 0 8px 8px 0;
-      background: #4000c7;
+      background: purple;
       > .tag-close-icon {
         display: block;
         width: 16px;

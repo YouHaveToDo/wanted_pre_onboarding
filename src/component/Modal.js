@@ -14,7 +14,7 @@ const Modal = () => {
               setState(!state);
             }}
           >
-            x
+            &times;
           </ModalCancleBtn>
           <ModalText>HELLO CODESTATES!</ModalText>
         </ModalBox>
